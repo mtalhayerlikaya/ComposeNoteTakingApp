@@ -1,0 +1,18 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/myerlikaya/Desktop/ComposeNoteTakingApp/app/src/main/res/drawable/ic_back_button.xml" value="0.14" />
+        <entry key="..\:/Users/myerlikaya/Desktop/ComposeNoteTakingApp/app/src/main/res/drawable/ic_baseline_add.xml" value="0.14" />
+        <entry key="..\:/Users/myerlikaya/Desktop/ComposeNoteTakingApp/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.14" />
+        <entry key="..\:/Users/myerlikaya/Desktop/ComposeNoteTakingApp/app/src/main/res/drawable/ic_check.xml" value="0.3015" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
