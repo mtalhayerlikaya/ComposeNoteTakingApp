@@ -14,11 +14,11 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object ViewModelModule {
 
-    @Singleton
+  /*  @Singleton
     @Provides
     fun provideNoteDetailScreenViewModel(repo: NoteDetailScreenRepository): NoteDetailScreenViewModel {
         return NoteDetailScreenViewModel(repo)
-    }
+    }*/
 
     @Singleton
     @Provides

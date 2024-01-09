@@ -140,7 +140,7 @@ fun HandleNewNoteScreen(navController: NavController,viewModel: NoteDetailScreen
                     modifier = Modifier
                         .padding(0.dp, 20.dp, 18.dp, 0.dp)
                         .clickable {
-                        viewModel.insertNote(Note(UUID.randomUUID().mostSignificantBits,header.text,content.text))
+                         viewModel.insertNote(Note(UUID.randomUUID().mostSignificantBits,header.text,content.text))
                         },
                     alignment = Alignment.TopEnd
                 )

@@ -16,6 +16,7 @@ constructor(private val repo: NoteDetailScreenRepository) : ViewModel() {
 
     fun insertNote(note: Note) = viewModelScope.launch {
         repo.insertNote(note)
+        println("deneme deneme deneme")
     }
 
 }

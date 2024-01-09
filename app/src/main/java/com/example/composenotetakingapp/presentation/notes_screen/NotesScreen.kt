@@ -108,6 +108,7 @@ fun AddSearchBarGridLayout(navController: NavController) {
 
 @Composable
 fun StaggeredGrid(navController: NavController, viewModel: NotesScreenViewModel = hiltViewModel()) {
+    viewModel.getAllNotesFromDB()
     val noteList by remember { viewModel.noteFromDB }
     //val noteList = remember { mutableStateListOf(viewModel.noteFromDB) }
     //val noteList by rememberSaveable() { mutableStateOf(viewModel.noteFromDB) }
